@@ -11,6 +11,7 @@ ul{
     list-style: none;
 }
 
+
 .mobile-menu{
     display: none;
 }
@@ -26,7 +27,28 @@ header{
     padding: 15px 0;
     color: #fff;
 }
+#intro{
+    padding: 2.5rem 0;
+    margin-bottom: 2rem;
+}
+#intro .card{
+    padding: 30px 20px;
+    padding-bottom: 0;
+}
 
+#intro .card >i.icon-card-header{
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+
+
+#intro h3, .icon-card-header{
+    color: #0084fd;
+}
+#intro p{
+    margin: 2rem 0;
+}
 /* ---------
   HEADER
 ---------- */
@@ -39,6 +61,49 @@ header img{
 header ul{
     display: flex;
     gap:30px;
+}
+
+/* ---------
+  /HEADER
+---------- */
+
+/* ---------
+  Main
+---------- */
+#intro .container{
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+#intro .col:not(:first-child){
+    width: calc(100% / 3 - 15px);
+    text-align: center;
+}
+#intro .col:first-child{
+    width: calc(100% / 3 * 2 - 15px);
+
+}
+
+
+#intro .side-left{
+    text-align: left;
+    width: 50%;
+}
+
+#intro .side-right{
+    align-self: flex-end;
+    width: 50%;
+    padding-top: 2rem;
+} 
+
+
+#intro .side-right img{
+    width: 80%;
+    display: block;
+
+}
+#intro .card>i{
+    font-size: 30px;
 }
 
 /* ---------
@@ -76,9 +141,25 @@ button{
     padding: 8px;
     border: none;
 }
+.btn-big{
+    padding: 10px 40px;
+    border: none;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+}
 
 .btn-white{
     background-color: #fff;
+}
+.btn-blue{
+    background-color: #0084fd;
+    color: #fff;
+}
+
+.card{
+    border-radius: 20px;
+    background-color: #b5ddff;
+
 }
 
 /* ---------
