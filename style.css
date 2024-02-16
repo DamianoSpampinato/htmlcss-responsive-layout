@@ -73,7 +73,7 @@ header ul{
 #intro .container{
     gap: 15px;
     flex-wrap: wrap;
-    padding: 0 10px;
+    padding: 0 ;
     justify-content: space-between;
 }
 
@@ -107,12 +107,51 @@ header ul{
 #intro .card>i{
     font-size: 30px;
 }
-
+#planning .container-small{
+    gap:30px;
+    line-height: 1.5rem;
+}
 #planning .col{
     width: 50%;
 }
-#planning .col img{
+#planning .text-container{
+    margin-top: 2rem;
+    color: #fff;
+}
+#planning .col .img-container{
+    width: 100%;
+    margin: 1.3rem 0;
+    
+}
+#planning .img-container img{
+    width:60%
+}
+
+#planning h2{
+    margin-top: 2rem;
+    margin-bottom: 1.3rem;
+}
+#planning p{
+    font-size: 14px;
+    margin: 1.3rem 0;
+}
+
+#planning .card{
+    align-self: flex-end;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
     width: 80%;
+}
+#planning .card img{
+    width: 40%;
+}
+/* -------
+    SECTION
+------- */
+#planning{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 /* ---------
@@ -157,6 +196,10 @@ button{
     padding: 8px;
     border: none;
 }
+
+.btn-circle{
+    border-radius: 100%;
+}
 .btn-big{
     padding: 10px 40px;
     border: none;
@@ -197,20 +240,23 @@ header{
     header .container{
         padding: 0 10px;
     }
+    #intro > .container{
+        padding: 0 10px;
+    }
 
     header ul{
         display: none;
     }
+
 }
 
 @media screen and (max-width: 768px) {
     #intro .col:not(:first-child){
         width: 100%;
-        margin: 15px;
     }
+
     #intro .col:first-child{
         width: 100%;
-        margin: 15px;
         flex-wrap: wrap;
     }
     #intro .side-left{
@@ -222,6 +268,7 @@ header{
         width: 100%;
         display: flex;
         justify-content: center;
+    
     }
     
     
