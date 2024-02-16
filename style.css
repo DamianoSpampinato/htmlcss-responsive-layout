@@ -108,11 +108,23 @@ header ul{
     font-size: 30px;
 }
 
+#planning .col{
+    width: 50%;
+}
+#planning .col img{
+    width: 80%;
+}
+#planning 
 /* ---------
   CONTAINERS
 ---------- */
 .container{
     max-width: 1140px;
+    margin: 0 auto;
+}
+
+.container-small{
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -122,7 +134,9 @@ header ul{
 .flex{
     display: flex;
 }
-
+.wrap{
+    flex-wrap: wrap;
+}
 .space-bw{
     justify-content: space-between;
 }
@@ -169,6 +183,10 @@ button{
 ---------- */
 header{
     background-color: #0084fd;
+}
+
+#planning{
+    background-color: #9792e4;
 }
 
 @media screen and (max-width:992px) {
