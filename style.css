@@ -152,6 +152,7 @@ header ul{
 #planning{
     padding-top: 3rem;
     padding-bottom: 2rem;
+    padding: 0 15px;
 }
 
 /* ---------
@@ -198,7 +199,11 @@ button{
 }
 
 .btn-circle{
-    border-radius: 100%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #9792e4;
+    border: none;
 }
 .btn-big{
     padding: 10px 40px;
@@ -232,7 +237,7 @@ header{
     background-color: #9792e4;
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:992px){
     .mobile-menu{
         display: block;
     }
@@ -247,7 +252,17 @@ header{
     header ul{
         display: none;
     }
-
+    #planning .container-small.flex{
+        flex-wrap:wrap;
+        text-align:center
+    }
+    #planning .col{
+        width:100%;
+        justify-content: center;
+    }
+    #planning .card {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -262,12 +277,13 @@ header{
     #intro .side-left{
         width: 100%;
         text-align: center;
+        
     }
 
     #intro .side-right{
         width: 100%;
         display: flex;
-        justify-content: center;
+        
     
     }
     
