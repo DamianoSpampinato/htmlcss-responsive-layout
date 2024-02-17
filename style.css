@@ -31,6 +31,9 @@ header{
     padding: 2.5rem 0;
     margin-bottom: 2rem;
 }
+#testimonials .container> h1{
+    font-size: 30px;
+}
 #intro .card{
     padding: 30px 20px;
     padding-bottom: 0;
@@ -48,6 +51,9 @@ header{
 }
 #intro p{
     margin: 2rem 0;
+}
+#testimonials .uppercase{
+    font-size: 16px;
 }
 /* ---------
   HEADER
@@ -146,15 +152,53 @@ header ul{
 #planning .card img{
     width: 40%;
 }
+#testimonials .container >*{
+    text-align: center;
+}
+#testimonials .card{
+    text-align: left;
+    padding: 25px;
+    padding-left: 10px;
+    align-items: center;
+    color: #fff;
+    background-color: #9792e4;
+    margin-top: 2rem;
+}
+
+#testimonials img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#testimonials .text-container{
+    margin-left: 1.5rem;
+    line-height: 1.5rem;
+}
+#testimonials p{
+    margin-bottom: 1rem;
+    padding: 0 10px;
+}
+
+#testimonials .container> h1{
+    margin: 20px 0;
+    color:#9792e4;
+}
+#testimonials .uppercase{
+    margin-top: 2rem;
+}
+
 /* -------
     SECTION
 ------- */
 #planning{
     padding-top: 3rem;
     padding-bottom: 2rem;
-    padding: 0 15px;
 }
-
+#testimonials{
+    padding: 40px 0;
+}
 /* ---------
   CONTAINERS
 ---------- */
@@ -225,15 +269,16 @@ button{
     background-color: #b5ddff;
 
 }
-
+.uppercase{
+    text-transform: uppercase;
+}
 /* ---------
   BACKGROUNDS
 ---------- */
 header{
     background-color: #0084fd;
 }
-
-#planning{
+section:nth-child(even){
     background-color: #9792e4;
 }
 
