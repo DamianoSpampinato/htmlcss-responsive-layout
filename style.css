@@ -299,7 +299,8 @@ section:nth-child(even){
     }
     #planning .container-small.flex{
         flex-wrap:wrap;
-        text-align:center
+        text-align:center;
+        padding: 0 10px
     }
     #planning .col{
         width:100%;
@@ -307,6 +308,11 @@ section:nth-child(even){
     }
     #planning .card {
         width: 100%;
+    }
+    #testimonials .container{
+        padding: 0 10px;
+        
+
     }
 }
 
@@ -336,5 +342,17 @@ section:nth-child(even){
     #intro .col>p{
         text-align: center;
     }
+
+    #testimonials .card{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 25px
+    }
+    #testimonials .card > * {
+        margin:0;
+        padding: 0;
+    }
+   
 
 }
