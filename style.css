@@ -189,6 +189,39 @@ header ul{
     margin-top: 2rem;
 }
 
+#benefits > h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 4.375rem;
+    font-size: 30px;
+}
+
+#benefits .container.flex{
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#benefits .card{
+    width: calc(100% / 3 - 20px);
+    background-color: #fff;
+    padding: 30px;
+    padding-right: 40px;
+}
+#benefits .card-header{
+    color: #9792e4;
+}
+#benefits .card-body{
+    line-height: 1.5rem;
+    font-size: 14px;
+    color: #929292;
+    margin: 1.875rem 0;
+}
+
+#benefits .card-header .card-number{
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+
 /* -------
     SECTION
 ------- */
@@ -198,6 +231,9 @@ header ul{
 }
 #testimonials{
     padding: 40px 0;
+}
+#benefits{
+    padding: 70px 0;
 }
 /* ---------
   CONTAINERS
@@ -263,7 +299,10 @@ button{
     background-color: #0084fd;
     color: #fff;
 }
-
+.btn-purple{
+    background-color: #9792e4;
+    color: #fff;
+}
 .card{
     border-radius: 20px;
     background-color: #b5ddff;
