@@ -353,6 +353,13 @@ section:nth-child(even){
         
 
     }
+    #benefits .container{
+        padding: 0 10px;
+
+    }
+    #benefits .card{
+        width: calc(100% / 2 - 20px);
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -391,6 +398,9 @@ section:nth-child(even){
     #testimonials .card > * {
         margin:0;
         padding: 0;
+    }
+    #benefits .card{
+        width:100%;
     }
    
 
