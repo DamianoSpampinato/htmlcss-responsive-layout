@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-ul{
+header ul{
     list-style: none;
 }
 
@@ -266,6 +266,31 @@ header ul{
     font-weight: bold;
     line-height: 24px;
 }
+#get-started{
+    text-align: center;
+}
+#get-started .container-smaller > *{
+    margin: 20px 0;
+    color: #fff;
+}
+#get-started .uppercase{
+    font-size: 14px;
+    color: #b8b5ec;
+}
+#get-started h1{
+    font-size: 30px;
+}
+#get-started .price{
+    font-size: 45px;
+    font-weight: bold;
+    color: #fdc15f;
+}
+#get-started button {
+    color: #9792e4;
+}
+#get-started .rights a{
+    color: #fff;
+}
 
 /* -------
     SECTION
@@ -275,10 +300,13 @@ header ul{
     padding-bottom: 2rem;
 }
 #testimonials{
-    padding: 40px 0;
+    padding: 2.5rem 0;
 }
 #benefits{
-    padding: 70px 0;
+    padding: 4.375rem 0;
+}
+#get-started{
+    padding: 1.25rem 0;
 }
 /* ---------
   CONTAINERS
@@ -294,6 +322,10 @@ header ul{
 
 .container-small{
     max-width: 900px;
+    margin: 0 auto;
+}
+.container-smaller{
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -340,7 +372,12 @@ button{
     letter-spacing: 2.5px;
     font-weight: bold;
 }
-
+.btn-bigger{
+    padding: 15px 40px;
+    border: none;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+}
 .btn-white{
     background-color: #fff;
 }
@@ -411,6 +448,9 @@ section:nth-child(even){
     }
     #about-us .container-medium{
         padding: 60px 10px;
+    }
+    #get-started .container-smaller{
+        padding: 10px 0;
     }
 }
 
