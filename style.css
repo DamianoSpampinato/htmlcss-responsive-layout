@@ -291,7 +291,19 @@ header ul{
 #get-started .rights a{
     color: #fff;
 }
-
+footer{
+    color: #fff;
+    padding: 20px;
+}
+footer .container-smaller{
+    text-align: center;
+}
+footer .container-smaller > *{
+    margin: 20px 0;
+}
+footer a{
+    color: #9792e4;
+}
 /* -------
     SECTION
 ------- */
@@ -405,6 +417,10 @@ header{
 }
 section:nth-child(even){
     background-color: #9792e4;
+}
+
+footer{
+    background-color: #333333;
 }
 
 @media screen and (max-width:992px){
